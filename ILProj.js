@@ -126,6 +126,27 @@ function yesF(){
 	document.getElementById("yesF").disabled=true;
 	slecAfterFQ();
 }
+//3 answers
+function no3(){
+	makeText("You need to have more fun, Choice Maker. Lying is fun.","SG");
+	makeText("The Choice Maker picked well, you shut your mouth.","HR");
+	makeText("The point of this question is about if it’s wrong to lie in a specific circumstance not about if lying is wrong in general.","NB");
+	makeText("Well, lying is always wrong.","HR");
+	rCount++;
+	document.getElementById("no3").disabled=true;
+	document.getElementById("yes3").disabled=true;
+}
+function yes3(){
+	makeText("It is always wrong to lie no matter what the contents, how could you choose such a thing.","HR");
+	makeText("You need to lighten up, lying is fun.","SG");
+	makeText("I would see some merit to saying that lying to protect someone is valid.","NB");
+	makeText("Are you siding with THEM now??","HR");
+	makeText("About time.","SG");
+	makeText("No, I am not. I also see why you would choose not to lie. Lies can hurt people no matter what the context. *Sigh*","NB");
+	gCount++;
+	document.getElementById("no3").disabled=true;
+	document.getElementById("yes3").disabled=true;
+}
 //specific senerio things that need to call answers
 function slecAfterFQ(){
 	if(rCount>gCount){ //ram higher
