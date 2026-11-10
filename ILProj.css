@@ -1,0 +1,26 @@
+/*Type*/
+body {
+	background-color: black;
+}
+button {
+	display: block;
+}
+/*IDs*/
+
+/*Classes*/
+/* Characters */
+.HR {
+	color: #D1AB15;
+}
+.SG{
+	color: #A72B1B;
+}
+.NB{
+	color: #C7C7C7;
+}
+/* Choices */
+.C{
+	color: black;
+	background-color: white;
+	margin: 5px;
+}

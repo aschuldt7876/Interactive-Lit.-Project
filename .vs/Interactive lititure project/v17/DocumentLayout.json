@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\Interactive lititure project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\Interactive lititure project\\ILProj.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ILProj.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\Interactive lititure project\\ILProj.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ILProj.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\introToWebDev\\Assignment9\\residentSearch.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\Interactive lititure project\\ILProj.css||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ILProj.css||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\introToWebDev\\Assignment9\\residentSearch.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\introToWebDev\\Assignment9\\residentSearch.css||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ILProj.html",
+              "DocumentMoniker": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\Interactive lititure project\\ILProj.html",
+              "RelativeDocumentMoniker": "ILProj.html",
+              "ToolTip": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\Interactive lititure project\\ILProj.html",
+              "RelativeToolTip": "ILProj.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-09T02:18:52.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ILProj.js",
+              "DocumentMoniker": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\Interactive lititure project\\ILProj.js",
+              "RelativeDocumentMoniker": "ILProj.js",
+              "ToolTip": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\Interactive lititure project\\ILProj.js",
+              "RelativeToolTip": "ILProj.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-09T02:18:54.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILProj.css",
+              "DocumentMoniker": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\Interactive lititure project\\ILProj.css",
+              "RelativeDocumentMoniker": "ILProj.css",
+              "ToolTip": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\Interactive lititure project\\ILProj.css",
+              "RelativeToolTip": "ILProj.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-09T02:18:49.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "residentSearch.js",
+              "DocumentMoniker": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\introToWebDev\\Assignment9\\residentSearch.js",
+              "RelativeDocumentMoniker": "..\\introToWebDev\\Assignment9\\residentSearch.js",
+              "ToolTip": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\introToWebDev\\Assignment9\\residentSearch.js",
+              "RelativeToolTip": "..\\introToWebDev\\Assignment9\\residentSearch.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-04T20:47:00.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "residentSearch.css",
+              "DocumentMoniker": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\introToWebDev\\Assignment9\\residentSearch.css",
+              "RelativeDocumentMoniker": "..\\introToWebDev\\Assignment9\\residentSearch.css",
+              "ToolTip": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\introToWebDev\\Assignment9\\residentSearch.css",
+              "RelativeToolTip": "..\\introToWebDev\\Assignment9\\residentSearch.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-04T20:46:53.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "residentSearch.html",
+              "DocumentMoniker": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\introToWebDev\\Assignment9\\residentSearch.html",
+              "RelativeDocumentMoniker": "..\\introToWebDev\\Assignment9\\residentSearch.html",
+              "ToolTip": "C:\\Users\\schuldtl7873\\OneDrive - University of Wisconsin-Stout\\Documents\\introToWebDev\\Assignment9\\residentSearch.html",
+              "RelativeToolTip": "..\\introToWebDev\\Assignment9\\residentSearch.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-04T20:42:10.886Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
