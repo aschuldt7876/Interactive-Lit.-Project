@@ -1,3 +1,4 @@
+// I comend you more if you got here in your inspect mode serch for spoilers lol.
 //variables
 	var gCount = 0;
 	var rCount = 0;
@@ -191,3 +192,5 @@ function slecAfterFQ(){
 		oneQ();
 	}
 }
+
+//Code by Arlo S.
