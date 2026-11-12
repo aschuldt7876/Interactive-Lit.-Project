@@ -135,6 +135,7 @@ function no3(){
 	rCount++;
 	document.getElementById("no3").disabled=true;
 	document.getElementById("yes3").disabled=true;
+	fourQ();
 }
 function yes3(){
 	makeText("It is always wrong to lie no matter what the contents, how could you choose such a thing.","HR");
@@ -146,6 +147,37 @@ function yes3(){
 	gCount++;
 	document.getElementById("no3").disabled=true;
 	document.getElementById("yes3").disabled=true;
+	twoQ();
+}
+//7 answers
+function w7(){
+	//ad dialog later
+	rCount++;
+	document.getElementById("w7").disabled=true;
+	document.getElementById("n7").disabled=true;
+	sixQ();
+}
+function n7(){
+	//add dialog later
+	gCount++;
+	document.getElementById("w7").disabled=true;
+	document.getElementById("n7").disabled=true;
+	fiveQ();
+}
+//1 answers
+function w1(){
+	//ad dialog later
+	rCount++;
+	document.getElementById("w1").disabled=true;
+	document.getElementById("g1").disabled=true;
+	twoQ();
+}
+function g1(){
+	//add dialog later
+	gCount++;
+	document.getElementById("w1").disabled=true;
+	document.getElementById("g1").disabled=true;
+	sixQ();
 }
 //specific senerio things that need to call answers
 function slecAfterFQ(){
