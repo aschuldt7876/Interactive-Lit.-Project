@@ -19,6 +19,20 @@ function makeButton(btext, bID, bOC){
 	newButton.setAttribute("onclick", bOC);
 	document.body.appendChild(newButton);
 }
+//ending functions
+function goldEnd(){
+	//add dialog
+	//add destroying all previous elements
+	//add a new heading to page
+}
+function redEnd(){
+	//add dialog
+	//add destroying all previous elements
+	//add a new heading to page
+}
+function trueEnd(){
+	//add dialog
+}
 //question functions
 //funny question
 function funnyQ(){
@@ -76,7 +90,7 @@ function wdyawQ(){
 	makeButton(">Neither","nb1","trueEnd()");
 }
 //question who do you agree with? second take
-function wdyawQ(){
+function wdyaw2Q(){
 	makeText("Who do you agree with?","NB");
 	makeButton(">Sheep","hr2","goldEnd()"); //flesh out idea for end check later
 	makeButton(">Goat","sg2","redEnd()");
@@ -179,6 +193,66 @@ function g1(){
 	document.getElementById("w1").disabled=true;
 	document.getElementById("g1").disabled=true;
 	sixQ();
+}
+//4 answers
+function no4(){
+	//ad dialog later
+	rCount++;
+	document.getElementById("no4").disabled=true;
+	document.getElementById("yes4").disabled=true;
+	goldEnd();
+}
+function yes4(){
+	//add dialog later
+	gCount++;
+	document.getElementById("no4").disabled=true;
+	document.getElementById("yes4").disabled=true;
+	wdyawQ();
+}
+//2 answers
+function r2(){
+	//ad dialog later
+	rCount++;
+	document.getElementById("r2").disabled=true;
+	document.getElementById("l2").disabled=true;
+	wdyawQ();
+}
+function l2(){
+	//add dialog later
+	gCount++;
+	document.getElementById("r2").disabled=true;
+	document.getElementById("l2").disabled=true;
+	wdyawQ();
+}
+//6 answers
+function no6(){
+	//ad dialog later
+	rCount++;
+	document.getElementById("no6").disabled=true;
+	document.getElementById("yes6").disabled=true;
+	wdyawQ();
+}
+function yes6(){
+	//add dialog later
+	gCount++;
+	document.getElementById("no6").disabled=true;
+	document.getElementById("yes6").disabled=true;
+	wdyawQ();
+}
+//5 answers
+function no5(){
+	//ad dialog later
+	rCount++;
+	document.getElementById("no5").disabled=true;
+	document.getElementById("yes5").disabled=true;
+	wdyawQ();
+}
+function yes5(){
+	//add dialog later
+	gCount++;
+	document.getElementById("no5").disabled=true;
+	document.getElementById("yes5").disabled=true;
+	redEnd();
 }
 //specific senerio things that need to call answers
 function slecAfterFQ(){
