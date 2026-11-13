@@ -9,26 +9,48 @@ function makeText(text, tclass){
 	const newText = document.createElement("p");
 	newText.innerText = text;
 	newText.classList.add(tclass);
+	newText.classList.add("all");
 	document.body.appendChild(newText);
 }
 function makeButton(btext, bID, bOC){
 	const newButton = document.createElement("button");
 	newButton.classList.add("C");
+	newButton.classList.add("all");
 	newButton.innerHTML = btext;
 	newButton.setAttribute("id", bID);
 	newButton.setAttribute("onclick", bOC);
 	document.body.appendChild(newButton);
 }
+function makeHeading(text, tclass){
+	const newHeading = document.createElement("h1");
+	newHeading.innerText = text;
+	newHeading.classList.add(tclass);
+	document.body.appendChild(newHeading);
+}
+function destroy(){
+	var allText = document.getElementsByClassName("all");
+	for(var i = 0; i<allText.length; i++){
+		allText[i].style.display = "none";
+	}
+}
+function endActionsG(){
+	document.body.style.backgroundColor = "#A37D02";
+	destroy();
+	makeHeading("Placeholder text", "HR");
+}
+function endActionsR(){
+	document.body.style.backgroundColor = "#730E00";
+	destroy();
+	makeHeading("Placeholder text", "SG");
+}
 //ending functions
 function goldEnd(){
 	//add dialog
-	//add destroying all previous elements
-	//add a new heading to page
+	setTimeout(endActionsG, 30000);
 }
 function redEnd(){
 	//add dialog
-	//add destroying all previous elements
-	//add a new heading to page
+	setTimeout(endActionsR, 30000);
 }
 function trueEnd(){
 	//add dialog
@@ -85,14 +107,14 @@ function fiveQ(){
 //question who do you agree with?
 function wdyawQ(){
 	makeText("Who do you agree with?","NB");
-	makeButton(">Sheep","hr1","endCheck()"); //flesh out idea for end check later
-	makeButton(">Goat","sg1","endCheck()");
+	makeButton(">Sheep","hr1","endCheckS()");
+	makeButton(">Goat","sg1","endCheckG()");
 	makeButton(">Neither","nb1","trueEnd()");
 }
 //question who do you agree with? second take
 function wdyaw2Q(){
-	makeText("Who do you agree with?","NB");
-	makeButton(">Sheep","hr2","goldEnd()"); //flesh out idea for end check later
+	makeText("So to clarify, who do you agree with?","NB");
+	makeButton(">Sheep","hr2","goldEnd()");
 	makeButton(">Goat","sg2","redEnd()");
 	makeButton(">Neither","nb2","trueEnd()");
 }
@@ -264,6 +286,25 @@ function slecAfterFQ(){
 	}
 	else{ //equal
 		oneQ();
+	}
+}
+//end check
+function endCheckS(){
+	if(rCount>gCount){
+		goldEnd();
+	}
+	else if(gCount>rCount){
+		//dialog
+		wdyaw2Q();
+	}
+}
+function endCheckG(){
+	if(gCount>rCount){
+		redEnd();
+	}
+	else if(rCount>gCount){
+		//dialog
+		wdyaw2Q();
 	}
 }
 
