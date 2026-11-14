@@ -213,7 +213,7 @@ function wdyaw2Q(){
 function sheep(){
 	//console.log("in sheep"); //test
 	makeText("Good as all things should be.","HR");
-	makeText("I don’t believe that it is how things should be.","SG");
+	makeText("I don't believe that it is how things should be.","SG");
 	makeText("Please answer the next question, Choice Maker.","NB");
 	rCount++;
 	//console.log("gCount= "+gCount+", rCount= "+rCount) //test
