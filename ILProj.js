@@ -61,11 +61,11 @@ function endCheckS(){
 		goldEnd();
 	}
 	else{
-		var bndialogtextwithldata = "It is true that Choice Maker’s choices aligned with you "+ gCount +" times and with Ram "+ rCount +" times.";
-		makeText("Of course you haven’t been more right before now, Choice Maker.","HR");
+		var bndialogtextwithldata = "It is true that Choice Maker's choices aligned with you "+ gCount +" times and with Ram "+ rCount +" times.";
+		makeText("Of course you haven't been more right before now, Choice Maker.","HR");
 		makeText("HOLD ON! I thought we had something special, Choice Maker. Why are you killing the vibe now?!","SG");
 		makeText("Well Choice Maker has seen reason.","HR");
-		makeText("I don’t believe that.","SG");
+		makeText("I don't believe that.","SG");
 		makeText(bndialogtextwithldata,"NB");
 		makeText("Fine, let the slob get a false chance.","HR");
 		makeText("Choice Maker knows what the best option is.","SG");
@@ -79,7 +79,7 @@ function endCheckG(){
 		redEnd();
 	}
 	else{
-		var bndialogtextwithldata = "It is true that Choice Maker’s choices aligned with you "+ rCount +" times and with Goat "+ gCount +" times.";
+		var bndialogtextwithldata = "It is true that Choice Maker's choices aligned with you "+ rCount +" times and with Goat "+ gCount +" times.";
 		makeText("YES!","SG");
 		makeText("Hold it! You agreed with me more Choice Maker is this a sick joke?!","HR");
 		makeText("Choice Maker picked me I won!","SG");
@@ -111,33 +111,33 @@ function redEnd2(){
 function goldEnd(){
 	makeText("Look at this now, of course I won, Choice Maker knows the path of good.","HR");
 	makeText("THIS IS UNFAIR! Choice Maker your no fu-","SG");
-	makeText("Let’s shut up that slob, for my reformation of my new domain.","HR");
-	makeText("This is it Choice Maker, before I am silenced…. Heavenly Ram won their bet and is becoming the sole ruler of this domain. Soon all this will be gone. No more choices, nothing but Ram’s way. I wish you well, Choice Maker. I hope you are happy with the choices you made.","NB");
+	makeText("Let's shut up that slob, for my reformation of my new domain.","HR");
+	makeText("This is it Choice Maker, before I am silenced.... Heavenly Ram won their bet and is becoming the sole ruler of this domain. Soon all this will be gone. No more choices, nothing but Ram's way. I wish you well, Choice Maker. I hope you are happy with the choices you made.","NB");
 	setTimeout(endActionsG, 30000);
 }
 function redEnd(){
 	makeText("HA HA! Good job Choice Maker!!","SG");
-	makeText("This can’t be!! Choice maker must be mentally unsta-","HR");
-	makeText("There, we don’t need that prick talking while I remodel.","SG");
-	makeText("This is it Choice Maker, before I am silenced…. Satanic Goat won their bet and is becoming the sole ruler of this domain. Soon all this will be gone. No more choices, nothing but Goat’s way. I wish you well, Choice Maker. I hope you are happy with the choices you made.","NB");
+	makeText("This can't be!! Choice maker must be mentally unsta-","HR");
+	makeText("There, we don't need that prick talking while I remodel.","SG");
+	makeText("This is it Choice Maker, before I am silenced.... Satanic Goat won their bet and is becoming the sole ruler of this domain. Soon all this will be gone. No more choices, nothing but Goat's way. I wish you well, Choice Maker. I hope you are happy with the choices you made.","NB");
 	setTimeout(endActionsR, 30000);
 }
 function trueEnd(){
 	makeText("Where did that choice even come from!","SG");
-	makeText("This isn’t fair you must pick!!","HR");
+	makeText("This isn't fair you must pick!!","HR");
 	makeText("I think the Choice Maker has chosen and we should respect that.","NB");
-	makeText("This blows, I’m out of here.","SG");
-	makeText("I believe this nonsense is unfair, but it seems I can’t do anything about it. *Huff*","HR");
+	makeText("This blows, I'm out of here.","SG");
+	makeText("I believe this nonsense is unfair, but it seems I can't do anything about it. *Huff*","HR");
 	makeText("They are just going to go sulk awhile, I think. Thank you, Choice Maker, for seeing where I am coming from.","NB");
 	makeText("I feel that nothing is truly one way or the other, Red or Gold if you will. I see things more, grey. The grey is where choices lay.","NB");
 	makeText("You can choose what to do from here, refresh the page to choose again, stay awhile and reflect on the questions asked here, or leave all together. It is up to you, Choice Maker.","NB");
 }
 //extra dialog
 function extraDialog(){
-	makeText("I don’t think this question is meant to have a definitive right or wrong answer.","NB");
+	makeText("I don't think this question is meant to have a definitive right or wrong answer.","NB");
 	makeText("Of course it dose! There must always be a right answer.","HR");
 	makeText("There always has to be a wrong answer!","SG");
-	makeText("If you two say so…. Let’s continue with the next question, Choice Maker.","NB");
+	makeText("If you two say so.... Let's continue with the next question, Choice Maker.","NB");
 }
 //question functions
 //funny question
@@ -191,8 +191,8 @@ function fiveQ(){
 //question who do you agree with?
 function wdyawQ(){
 	makeText("We are never going to settle the bet this way! ","HR");
-	makeText("Yeah, I’m getting bored.","SG");
-	makeText("I really don’t think there is a need for this, can’t you two call this off?","NB");
+	makeText("Yeah, I'm getting bored.","SG");
+	makeText("I really don't think there is a need for this, can't you two call this off?","NB");
 	makeText("Why would I do that!","SG");
 	makeText("I would never admit defeat to this slob!","HR");
 	makeText("Alright fine you two, Choice Maker can just settle this.","NB");
@@ -236,7 +236,7 @@ function goat(){
 function noF(){
 	//console.log("Made it noF"); //test
 	makeText("I am glad this Choice Maker is not a fool.","HR");
-	makeText("You’re no fun at all.","SG");
+	makeText("You're no fun at all.","SG");
 	makeText("Let us move on please.","NB");
 	rCount++;
 	document.getElementById("noF").disabled=true;
@@ -246,7 +246,7 @@ function noF(){
 function yesF(){
 	//console.log("Made it yesF"); //test
 	makeText("That is quite preposterous.","HR");
-	makeText("It’s called fun. Ever had it?","SG");
+	makeText("It's called fun. Ever had it?","SG");
 	makeText("Let us move on please.","NB");
 	gCount++
 	document.getElementById("noF").disabled=true;
@@ -257,7 +257,7 @@ function yesF(){
 function no3(){
 	makeText("You need to have more fun, Choice Maker. Lying is fun.","SG");
 	makeText("The Choice Maker picked well, you shut your mouth.","HR");
-	makeText("The point of this question is about if it’s wrong to lie in a specific circumstance not about if lying is wrong in general.","NB");
+	makeText("The point of this question is about if it's wrong to lie in a specific circumstance not about if lying is wrong in general.","NB");
 	makeText("Well, lying is always wrong.","HR");
 	rCount++;
 	document.getElementById("no3").disabled=true;
@@ -280,11 +280,11 @@ function yes3(){
 }
 //7 answers
 function w7(){
-	makeText("Oh good, Choice maker, you’re seeing reason.","HR");
-	makeText("Oh, come on, being selfless isn’t everything, give in.","SG");
-	makeText("I would agree in a sense that being selfless all the time isn’t always everything, but it is important to think of others as well.","NB");
+	makeText("Oh good, Choice maker, you're seeing reason.","HR");
+	makeText("Oh, come on, being selfless isn't everything, give in.","SG");
+	makeText("I would agree in a sense that being selfless all the time isn't always everything, but it is important to think of others as well.","NB");
 	makeText("Please selfless is boring, selfish is in.","SG");
-	makeText("It is never ok to be selfish; I don’t know what you’re talking about.","HR");
+	makeText("It is never ok to be selfish; I don't know what you're talking about.","HR");
 	makeText("*Sigh*","NB");
 	rCount++;
 	document.getElementById("w7").disabled=true;
@@ -304,12 +304,12 @@ function n7(){
 }
 //1 answers
 function w1(){
-	makeText("Yes, when you’re wrong you pay for it.","HR");
-	makeText("I think if you regret something, it means you’ve changed. Wrong is no reason for regret.","SG");
-	makeText("… I expected your opinions to be swapped.","NB");
+	makeText("Yes, when you're wrong you pay for it.","HR");
+	makeText("I think if you regret something, it means you've changed. Wrong is no reason for regret.","SG");
+	makeText("... I expected your opinions to be swapped.","NB");
 	makeText("That is preposterous!","HR");
 	makeText("Why would you think that, Blob?","SG");
-	makeText("I feel like from what I know of your values your answers here would align with the other….","NB");
+	makeText("I feel like from what I know of your values your answers here would align with the other....","NB");
 	makeText("Honestly...","NB");
 	rCount++;
 	document.getElementById("w1").disabled=true;
@@ -318,13 +318,13 @@ function w1(){
 	twoQ();
 }
 function g1(){
-	makeText("How dare, if you have regret, you’ve clearly done something wrong.","HR");
-	makeText("Wrong is chill, regret means you’ve changed since that choice. I approve.","SG");
-	makeText("…","NB");
-	makeText("What has gotten you so quiet. You… Neutral... Blob!!","HR");
-	makeText("That isn’t even an insult that is just what I… You know what never mind that.","NB");
+	makeText("How dare, if you have regret, you've clearly done something wrong.","HR");
+	makeText("Wrong is chill, regret means you've changed since that choice. I approve.","SG");
+	makeText("...","NB");
+	makeText("What has gotten you so quiet. You... Neutral... Blob!!","HR");
+	makeText("That isn't even an insult that is just what I... You know what never mind that.","NB");
 	makeText("I just expected your answers to be swapped based on what I know of your values.","NB");
-	makeText("Well, that’s a twist.","SG");
+	makeText("Well, that's a twist.","SG");
 	makeText("That is quite ridiculous of you to think.","HR");
 	makeText("*Sigh*","NB");
 	gCount++;
@@ -335,8 +335,8 @@ function g1(){
 }
 //4 answers
 function no4(){
-	makeText("They don’t matter. If you did something bad, you did something bad.","HR");
-	makeText("I think they do, you can’t do half assed bad. That is just depressing.","SG");
+	makeText("They don't matter. If you did something bad, you did something bad.","HR");
+	makeText("I think they do, you can't do half assed bad. That is just depressing.","SG");
 	makeText("I feel it really depends on the situation.","NB");
 	makeText("That is ridiculous of you! Bad is bad.","HR");
 	makeText("Good intentions ruin the fun.","SG");
@@ -347,7 +347,7 @@ function no4(){
 }
 function yes4(){
 	makeText("Yes! Good intentions kill the vibe.","SG");
-	makeText("I don’t think that is why Choice Maker would choose that intentions matter.","NB");
+	makeText("I don't think that is why Choice Maker would choose that intentions matter.","NB");
 	makeText("I see it as this Choice Maker siding with bad. As bad is bad.","HR");
 	makeText("What other reason would there be?","SG");
 	makeText("That good intentions can make a bad action less bad in some cases. I feel this one would really depend.","NB");
@@ -360,7 +360,7 @@ function yes4(){
 //2 answers
 function r2(){
 	makeText("I agree, reason is the only way it can be. Everything has reason.","HR");
-	makeText("Reason, sure. Reason is a ploy to pretend everything wasn’t just luck.","SG");
+	makeText("Reason, sure. Reason is a ploy to pretend everything wasn't just luck.","SG");
 	makeText("I think both can be true honestly.","NB");
 	rCount++;
 	document.getElementById("r2").disabled=true;
@@ -371,7 +371,7 @@ function l2(){
 	makeText("Yes, reason is a lie to make people feel good about themselves.","SG");
 	makeText("That is not true at all! You should take that back!","HR");
 	makeText("Make me, coward.","SG");
-	makeText("Let’s not be hasty, I think I can see both being true here.","NB");
+	makeText("Let's not be hasty, I think I can see both being true here.","NB");
 	gCount++;
 	document.getElementById("r2").disabled=true;
 	document.getElementById("l2").disabled=true;
@@ -380,9 +380,9 @@ function l2(){
 //6 answers
 function no6(){
 	makeText("Yes, all laws must be just.","HR");
-	makeText("Aren’t there groups of people fighting for laws to change for the better?","SG");
+	makeText("Aren't there groups of people fighting for laws to change for the better?","SG");
 	makeText("They are wrong to do so.","HR");
-	makeText("I feel that while most laws aren’t immoral, there are laws that can be.","NB");
+	makeText("I feel that while most laws aren't immoral, there are laws that can be.","NB");
 	makeText("Ridiculous the law is the law.","HR");
 	rCount++;
 	document.getElementById("no6").disabled=true;
@@ -403,7 +403,7 @@ function yes6(){
 function no5(){
 	makeText("Your no fun choice maker.","SG");
 	makeText("No Choice Maker is right, revenge is never justified!","HR");
-	makeText("Revenge isn’t helpful oftentimes, but I don’t think this should have a never attitude.","NB");
+	makeText("Revenge isn't helpful oftentimes, but I don't think this should have a never attitude.","NB");
 	rCount++;
 	document.getElementById("no5").disabled=true;
 	document.getElementById("yes5").disabled=true;
@@ -412,7 +412,7 @@ function no5(){
 function yes5(){
 	makeText("Ah ha! Yes! Revenge is fun!","SG");
 	makeText("No, it is not! Revenge is never justified!","HR");
-	makeText("I think revenge isn’t always justified, but I’d never say never.","NB");
+	makeText("I think revenge isn't always justified, but I'd never say never.","NB");
 	gCount++;
 	document.getElementById("no5").disabled=true;
 	document.getElementById("yes5").disabled=true;
